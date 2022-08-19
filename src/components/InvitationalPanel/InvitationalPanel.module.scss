@@ -1,0 +1,41 @@
+.form {
+	position: relative;
+}
+
+.searchBtn {
+	left: 0;
+	height: 100%;
+	position: absolute;
+	width: 40px;
+	color: #DCDCDC;
+	font-size: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.1s ease 0s;
+
+	&:hover {
+		color: #C0C0C0;
+	}
+}
+
+.input {
+	width: 100%;
+	padding: 0 5px 0 40px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 2;
+	background-color: #fff;
+	outline: none;
+	border: 1px solid #F5F5F5;
+	border-radius: 10px;
+
+	&::placeholder {
+		color: #DCDCDC;
+	}
+
+	&:focus,
+	&:active {
+		border: 1px solid #DCDCDC;
+	}
+}

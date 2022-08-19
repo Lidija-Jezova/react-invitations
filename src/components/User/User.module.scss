@@ -1,0 +1,61 @@
+.user {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 15px;
+}
+
+.avatar {
+	img {
+		width: 40px;
+		border-radius: 50%;
+	}
+}
+
+.info {
+	flex-grow: 1;
+}
+
+.name {
+	color: #411530;
+	font-weight: 600;
+
+	&:not(:last-child) {
+		margin-bottom: 2px;
+	}
+}
+
+.email {
+	font-size: 13px;
+	line-height: 1;
+	color: #A9A9A9;
+	transition: all 0.1s ease 0s;
+
+	&:hover {
+		color: #808080;
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+	}
+
+	span {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.plus {
+	font-size: 24px;
+	color: #A9A9A9;
+	transition: all 0.1s ease 0s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&:hover {
+		color: #808080;
+	}
+}

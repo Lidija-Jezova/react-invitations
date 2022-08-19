@@ -1,0 +1,16 @@
+.button {
+	height: 40px;
+	padding: 5px;
+	background-color: #ff653a;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px rgba(209, 81, 45, 0.2);
+	transition: all 0.1s ease 0s;
+
+	&:hover {
+		box-shadow: 0 2px 4px rgba(209, 81, 45, 0.5);
+	}
+
+	&:active {
+		background-color: #D1512D;
+	}
+}
